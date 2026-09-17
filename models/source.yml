@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: FINANCE_DB
+    schema: RAW
+
+    tables:
+      - name: CUSTOMERS
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: PRODUCTS
